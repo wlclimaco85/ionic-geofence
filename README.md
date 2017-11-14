@@ -1,47 +1,20 @@
-# Ionic geofence sample project
+Ionic 2 App Base
+=====================
 
-[![Build Status](https://travis-ci.org/cowbell/ionic-geofence.svg?branch=master)](https://travis-ci.org/cowbell/ionic-geofence)
+This is the base template for Ionic 2 starter apps.
 
-Sample project using [cordova geofence plugin](https://github.com/tsubik/cordova-plugin-geofence)
+## Using this project
 
-![ionic-geofence](https://cloud.githubusercontent.com/assets/1286444/4302807/604c7c5e-3e5e-11e4-87df-99b22abffdc8.jpg)
+You'll need the Ionic CLI with support for v2 apps:
 
-## Installation
-
-Use local npm packages
-
-```
-npm install
-bower install
+```bash
+$ npm install -g ionic
 ```
 
-For testing in browser
+Then run:
 
-```
-ionic serve
-```
-
-For android
-
-```
-ionic platform add android
-ionic run android
+```bash
+$ ionic start myApp
 ```
 
-For iOS
-
-```
-ionic platform add ios
-ionic run ios
-```
-
-## Platforms
-
-- Android
-- iOS
-
-## License
-
-This software is released under the [MIT License](https://raw.githubusercontent.com/tsubik/ionic-geofence/master/LICENSE).
-
-© 2014 Tomasz Subik. All rights reserved
+More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/docs/v2/getting-started/) page.
